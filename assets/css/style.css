@@ -22,15 +22,16 @@ body {
   }
   
   #headerbox{
-      
+    background: #4aaaa5;
+    float:left;
+    height: 70px;
   }
 
   h1 {
     font-size: 28px;
     color: #eee;
     text-align: center;
-    background: #4aaaa5;
-    float:left;
+
   }
   
   h4 {
