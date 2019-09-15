@@ -90,11 +90,33 @@ body {
     padding: 10px;
   }
   
-  #bio-image {
-    width: 200px;
-    height: 200px;
+  .images {
+    width: 270px;
+    height: 180px;
     margin-right: 20px;
+    margin-bottom: 20px;
+    z-index: 0;
   }
+
+  .imgbox{
+    position: relative;
+    display: inline-block;
+  }
+
+  .imgbox .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;   
+    text-align: center;
+    vertical-align: middle;
+    top: 65%; 
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background:#4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 93%;
+}
 
   footer{
     background: #666666;
