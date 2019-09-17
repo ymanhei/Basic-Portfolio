@@ -31,6 +31,16 @@ section {
   display: block;
   width: 100%;
   margin: 0 auto;
+  height: 70%;
+}
+
+object {
+  position: absolute;
+  float: left;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
 }
 
 #bio-image {

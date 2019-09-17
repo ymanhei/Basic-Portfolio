@@ -8,6 +8,15 @@
   <!-- Fill in the href to the CSS such that this HTML file can access the CSS -->
   <!-- Don't move the HTML or CSS file. Use Relative Linking -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type='text/javascript'>
+    function load_contact() {
+            document.getElementById("section").innerHTML='<object type="text/html" data="contact.html" ></object>';
+                }
+
+            function load_port() {
+            document.getElementById("section").innerHTML='<object type="text/html" data="portfolio.html" ></object>';
+                }
+  </script>
 </head>
 
 <body>
@@ -18,14 +27,14 @@
         </div>    
             <h4>
                 <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
+                <a href="#" onclick='return load_port()'>Portfolio</a> |
+                <a href="#" onclick='return load_contact()'>Contact</a>
             </h4>
         </div> 
     </header>
 
   
-    <section>
+    <section id = "section">
       <div id="main-bio">
         <div class="container">
             <h2>About Me</h2>
