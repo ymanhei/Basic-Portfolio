@@ -81,7 +81,7 @@ section {
   #main-bio{
     background-color: #ffffff;
     top:100px;
-    left: 15%;
+    left: 25%;
     padding: 20px 20px 20px 20px;
     border: 1px solid #dddddd;
     position: absolute;
@@ -99,6 +99,7 @@ section {
     border: 1px solid lightgrey;
     position: absolute;
     width: 960px;
+    margin: 0 auto;
   }
   
   #AbMe {
